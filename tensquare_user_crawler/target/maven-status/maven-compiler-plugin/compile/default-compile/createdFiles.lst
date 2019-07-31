@@ -1,0 +1,8 @@
+com\tensquare\user\UserApplication.class
+com\tensquare\user\crawler\UserPipeline.class
+com\tensquare\user\service\UserService.class
+com\tensquare\user\utils\DownloadUtils.class
+com\tensquare\user\pojo\User.class
+com\tensquare\user\crawler\UserPageProcessor.class
+com\tensquare\user\dao\UserDao.class
+com\tensquare\user\task\UserCrawlerTask.class

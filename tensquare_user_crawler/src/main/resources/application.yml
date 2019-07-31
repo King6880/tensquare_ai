@@ -1,0 +1,17 @@
+#配置请求端口
+#配置服务名
+#配置datasource
+#配置jpa
+server:
+  port: 9015
+spring:
+  application:
+  name: tensquare‐crawler-user #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_user?characterEncoding=UTF8
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.tensquare.article.CrawlerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.099 s <<< FAILURE! - in com.tensquare.article.CrawlerTest
+test(com.tensquare.article.CrawlerTest)  Time elapsed: 1.137 s  <<< ERROR!
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at com.tensquare.article.CrawlerTest.test(CrawlerTest.java:30)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at com.tensquare.article.CrawlerTest.test(CrawlerTest.java:30)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.tensquare.article.CrawlerTest.test(CrawlerTest.java:30)
+
